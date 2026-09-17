@@ -7,12 +7,7 @@ pipeline {
     }
 
     stages {
-        stage('Checkout') {
-            steps {
-                git branch: 'main',
-                    url: 'https://github.com/your-username/project5-env-vars.git'
-            }
-        }
+        
 
         stage('Show App Info') {
             steps {
